@@ -342,7 +342,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <header id='header-wrapper' itemscope='itemscope' itemtype='https://schema.org/WPHeader'>
 <div class='binuang-flex'>
 <b:section class='header' id='header' maxwidgets='1' name='Header Logo' showaddelement='no'>
-  <b:widget id='Header1' locked='true' title='SKHCITIZEN | by @jiaara (Header)' type='Header' version='2' visible='true'>
+  <b:widget id='Header1' locked='true' title='SKHCITIZEN (Header)' type='Header' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEj_rlq_ILex-SxuEqxv8Kvk6usWiQHCuSyYrkzDROcJmGB8cI2fCxjyY2hegFZg1MgEjiBU0vzQwuC_z2IZRSGH_2ltseoNKqP-MRpz8m5-m-_0kif12NYWkVj3RBkW7FDopQNO83SVEphf7S2W_dZDTtcdpLRWrMJlpbEumZ9kr1GJBxEkQvvSUI3tslGA=s1174</b:widget-setting>
       <b:widget-setting name='displayHeight'>278</b:widget-setting>
@@ -609,7 +609,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <!--<img class='lazyload mediaQ binuang_barner' expr:alt='data:title' expr:data-src='data:sourceUrl' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:width='data:width' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='/> -->
 <div id='rianseoImage'>
 <div class='binuang_tapin'>
-  <svg aria-label='Blog Logo' height='35' role='img' viewBox='0 0 24 27.36'><path d='M 21.036 1.373 C 17.305 -2.999 5.229 5.477 5.327 16.388 C 5.321 16.665 5.096 16.891 4.818 16.896 C 4.639 16.894 4.473 16.799 4.382 16.646 C 3.677 15.118 3.311 13.457 3.314 11.775 C 3.313 10.51 3.516 9.251 3.92 8.053 C 4.036 7.708 3.735 7.366 3.378 7.437 C 3.276 7.456 3.185 7.511 3.117 7.589 C -2.964 14.224 0.421 24.957 9.207 26.903 C 10.037 27.087 10.88 27.181 11.73 27.181 C 28.169 26.85 24.366 5.274 21.036 1.373 Z' fill='currentColor'/></svg>
+
   <span><data:view.title.escaped/></span>
   </div>
 <h2><data:title/></h2>
@@ -727,6 +727,66 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 </div>
 </div>
 <b:section class='home__LinkList' id='home__LinkList' maxwidgets='2' name='Menu Link Homepage' preferred='no' showaddelement='yes'>
+  <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<style>
+  /* Pembungkus Banner Utama */
+  .skh-disclaimer-banner {
+    max-width: 728px;
+    width: 100%;
+    min-height: 90px;
+    background-color: #f8f9fa; /* Warna latar belakang abu-abu terang */
+    border: 1px solid #e9ecef; /* Garis batas tipis */
+    border-radius: 6px; /* Sudut sedikit membulat */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    margin: 15px auto; /* Posisi di tengah secara horizontal */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Bayangan halus */
+  }
+
+  /* Pengaturan Teks */
+  .skh-disclaimer-banner p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #495057; /* Warna teks abu-abu gelap agar nyaman dibaca */
+  }
+
+  /* Penekanan Kata Kunci */
+  .skh-disclaimer-banner strong {
+    color: #212529; /* Warna hitam untuk nama brand */
+    font-weight: 700;
+  }
+
+  /* Responsif untuk layar HP (Mobile) */
+  @media (max-width: 600px) {
+    .skh-disclaimer-banner {
+      min-height: auto; /* Membiarkan tinggi menyesuaikan isi teks di layar kecil */
+      padding: 15px;
+    }
+    .skh-disclaimer-banner p {
+      font-size: 12px; /* Mengecilkan teks sedikit di layar HP */
+    }
+  }
+</style>
+
+<br/>
+<div class="skh-disclaimer-banner">
+  <p><strong>SKHCITIZEN</strong> adalah platform blog. Semua konten menjadi tanggung jawab penulis dan tidak mewakili pandangan redaksi <strong>SKHCITIZEN</strong> dan <strong>JIAARA.ID</strong>.</p>
+</div>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+  </b:widget>
   <b:widget id='LinkList80' locked='true' title='LinkList Homepage' type='LinkList' version='2' visible='false'>
     <b:widget-settings>
       <b:widget-setting name='link-3'>/search/label/Theme</b:widget-setting>
@@ -1501,7 +1561,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
     
 <!-- Recent post -->
 <b:section class='temabanua-section' cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets.HTML any w =&gt; w.sectionId == &quot;temabanua-recent-post&quot;))' id='temabanua-recent-post' name='Recent post' showaddelement='yes'>
-  <b:widget id='HTML35' locked='true' title='Recent Posts Tambah Gadget' type='HTML' version='2' visible='true'>
+  <b:widget id='HTML35' locked='true' title='Recent Posts Tambah Gadget' type='HTML' version='2' visible='false'>
     <b:widget-settings>
       <b:widget-setting name='content'>{getPosts} $label={Image}</b:widget-setting>
     </b:widget-settings>
@@ -1636,7 +1696,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
       <div class='binuang-footer-row'>
         <div class='binuang-footer-about'>
           <b:section class='footer-about' id='footer-about' name='Footer About' showaddelement='false'>
-            <b:widget id='Header2' locked='true' title='SKHCITIZEN | by @jiaara (Header)' type='Header' version='2' visible='true'>
+            <b:widget id='Header2' locked='true' title='SKHCITIZEN (Header)' type='Header' version='2' visible='true'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEgDoFLfJ3GC8P8IrYQJwneQTwQf3K-82trfDjXG5A2NreESLLUpnw7YxgMceO_2xPxlBcF842hhUFThOc1hPkYJoh2h_TTtwnHGBunMd96RiOXtrV61bcD0LfLnaZLIj-E_hjYFhy-NXKCM63QOl3pUvnZm65hSnj6CHjJcs4AzJ_jlIHZ0xRNXQ5QOsFo=s1174</b:widget-setting>
                 <b:widget-setting name='displayHeight'>278</b:widget-setting>
