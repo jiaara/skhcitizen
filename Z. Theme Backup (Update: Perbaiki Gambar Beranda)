@@ -406,7 +406,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
       <b:widget-settings>
         <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
         <b:widget-setting name='display'>LIST</b:widget-setting>
-        <b:widget-setting name='selectedLabelsList'>blog,video</b:widget-setting>
+        <b:widget-setting name='selectedLabelsList'>video,zblog</b:widget-setting>
         <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
         <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
       </b:widget-settings>
@@ -592,21 +592,21 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <div class='hero-content container'>
 <div class='coll12'>
 <b:section class='rianseoWidget' id='rianseoWidget' name='Slider Barner Homepage' showaddelement='no'>
-  <b:widget id='Image122' locked='true' title='5 MILLION  additional photos' type='Image' version='2' visible='true'>
+  <b:widget id='Image122' locked='true' title='Ragam Cerita Sukoharjo Makmur' type='Image' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEidJ-lGEQaml8a0eJ_guABbR928oGJM1iwtpFtF7hfcvaSMA8AF5HP2ZTJagKANfRZJ8puTY5SR9JUDVuVGN6L7YEcmrNBveQ2fQnUnV_fz8mymVUtOq5xQf3h-S5WqXLguABvI6nTt_CKdWixlfvI4GJOWsILQiSI4zE1JaDPj4G65JiWLz3BzU-gSziI=s670</b:widget-setting>
       <b:widget-setting name='displayHeight'>353</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>486</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>423</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='displayWidth'>670</b:widget-setting>
       <b:widget-setting name='link'>/search/label/Image</b:widget-setting>
-      <b:widget-setting name='caption'>Enhance your projects with authentic real-world photography.</b:widget-setting>
+      <b:widget-setting name='caption'>Eksplorasi kisah-kisah inspiratif, fakta menarik, dan informasi terkini seputar kehidupan di Sukoharjo.</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <b:include name='content'/>
 </b:includable>
     <b:includable id='content'>
-<!--<img class='lazyload mediaQ binuang_barner' expr:alt='data:title' expr:data-src='data:sourceUrl' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:width='data:width' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='/> -->
+<img class='lazyload mediaQ binuang_barner' expr:alt='data:title' expr:data-src='data:sourceUrl' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:width='data:width' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='/>
 <div id='rianseoImage'>
 <div class='binuang_tapin'>
 
@@ -616,7 +616,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <b:if cond='data:caption'>
 <p class='rianseoCaption'><data:caption/></p>
 </b:if>
-<span class='binuang_btn'><data:messages.showAll/></span>
+<span class='binuang_btn'>Mulai Jelajahi</span>
 <b:tag class='binuang_a' cond='data:link' expr:href='data:link' name='a'/>
 </div>
 </b:includable>
@@ -1780,6 +1780,208 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
       <div class='binuang-footer-widget'>
     <div class='binuang-footer-widget-box'>
     <b:section class='' id='footer-widget-footer1' name='Footer Widget 1' preferred='yes'>
+      <b:widget id='HTML2' locked='false' title='' type='HTML' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'><![CDATA[<div id="welcome-popup-overlay" class="welcome-popup-overlay" style="display: none;">
+    <div class="welcome-popup-container">
+        <div class="welcome-popup-image-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirhfB0liwLgv9JO4pIoxqX9iNHoGNFWYhXaCXaytdWhhVgC5YZNvCaEqS-F5H1d72xm9ECdCLjZNYsA-eUpEg5FjJ1gVT0bolkuBALe7lTTUoVXSJCZCmZ16AUbVTdJIpZi9Sca8-n0ns29BOkjZNRfeEAjMKhadONOwZoJ-cMN1rNXmcdYdHkCwvEbTfo/s1368/SKHCITIZEN%20-%20Welcome%20Message.png" alt="Welcome Image" onerror="this.src=&#39;https://i.ibb.co/37yX8H3/image.png&#39;" />
+        </div>
+
+        <div class="welcome-popup-btn-group">
+            <a href="/submit" class="welcome-popup-btn welcome-popup-btn-green" onclick="document.getElementById('welcome-popup-overlay').style.display='none';">
+                <svg viewbox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></path></svg>
+                <span>AKU INGIN<br />MENGIRIM TULISAN</span>
+            </a>
+            
+            <button onclick="closeWelcomePopup()" class="welcome-popup-btn welcome-popup-btn-red">
+                <svg viewbox="0 0 24 24"><path d="M21 4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-1 14H4V6h16v12zM6 9h12v2H6zm0 4h8v2H6z"/></path></svg>
+                <span>AKU INGIN<br />MEMBACA SAJA</span>
+            </button>
+        </div>
+
+        <div class="welcome-popup-footer">
+            <label class="welcome-popup-checkbox-container">
+                <input type="checkbox" id="welcome-popup-dont-show" />
+                <span class="welcome-popup-checkmark"></span>
+                JANGAN TAMPILKAN PESAN INI HINGGA 30 MENIT KE DEPAN
+            </label>
+        </div>
+    </div>
+</div>
+
+<style>
+/* Background Overlay dengan Blur */
+.welcome-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Kotak Utama Popup */
+.welcome-popup-container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    border: 3px solid #f4a460;
+    border-radius: 40px;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Gambar */
+.welcome-popup-image-box {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.welcome-popup-image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Group Tombol */
+.welcome-popup-btn-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* Gaya Tombol Umum */
+.welcome-popup-btn, 
+a.welcome-popup-btn:link, 
+a.welcome-popup-btn:visited {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    border-radius: 12px;
+    text-decoration: none !important;
+    border: none;
+    cursor: pointer;
+    color: #ffffff !important;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.2;
+    transition: transform 0.2s;
+}
+
+.welcome-popup-btn:hover, 
+a.welcome-popup-btn:hover { 
+    transform: scale(1.02); 
+    color: #ffffff !important; 
+}
+
+.welcome-popup-btn svg {
+    width: 35px;
+    height: 35px;
+    fill: #ffffff !important;
+    margin-right: 8px;
+}
+
+/* Warna Tombol */
+.welcome-popup-btn-green { background-color: #00b050; }
+.welcome-popup-btn-red { background-color: #ff3b30; }
+
+/* Checkbox Footer */
+.welcome-popup-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.welcome-popup-checkbox-container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 11px;
+    cursor: pointer;
+    color: #000;
+}
+.welcome-popup-checkbox-container input {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* Responsif Mobile */
+@media screen and (max-width: 480px) {
+    .welcome-popup-container { border-radius: 25px; padding: 15px; }
+    .welcome-popup-btn-group { grid-template-columns: 1fr; }
+    .welcome-popup-btn { font-size: 12px; }
+}
+</style>
+
+<script>
+(function() {
+    const popupOverlay = document.getElementById('welcome-popup-overlay');
+    const dontShowCheckbox = document.getElementById('welcome-popup-dont-show');
+    const storageKey = 'welcome-popup-timeout';
+
+    // Fungsi untuk menutup popup
+    window.closeWelcomePopup = function() {
+        if (dontShowCheckbox && dontShowCheckbox.checked) {
+            // Set waktu sekarang + 30 menit
+            const expiryTime = new Date().getTime() + (30 * 60 * 1000);
+            localStorage.setItem(storageKey, expiryTime);
+        }
+        popupOverlay.style.display = 'none';
+    };
+
+    // Fungsi pengecekan saat halaman dimuat
+    function checkPopupStatus() {
+        // PERBAIKAN: Jika pengunjung sedang berada di halaman "/submit", popup JANGAN dimunculkan
+        if (window.location.href.indexOf('/submit') > -1) {
+            popupOverlay.style.display = 'none';
+            return; // Berhenti eksekusi script di sini
+        }
+
+        const expiryTime = localStorage.getItem(storageKey);
+        const currentTime = new Date().getTime();
+
+        if (!expiryTime || currentTime > expiryTime) {
+            // Jika tidak ada limit atau waktu sudah lewat, tampilkan
+            popupOverlay.style.display = 'flex';
+        } else {
+            // Jika masih dalam masa 30 menit, sembunyikan
+            popupOverlay.style.display = 'none';
+        }
+    }
+
+    // Jalankan pengecekan
+    document.addEventListener('DOMContentLoaded', checkPopupStatus);
+    // Backup jika DOMContentLoaded sudah lewat (khas Blogger)
+    setTimeout(checkPopupStatus, 100);
+})();
+</script>]]></b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+      </b:widget>
       <b:widget id='LinkList4' locked='false' title='Blogger Template' type='LinkList' visible='false'>
         <b:widget-settings>
           <b:widget-setting name='text-10'>Populart Search</b:widget-setting>
