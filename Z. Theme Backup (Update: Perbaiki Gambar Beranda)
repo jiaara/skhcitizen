@@ -406,7 +406,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
       <b:widget-settings>
         <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
         <b:widget-setting name='display'>LIST</b:widget-setting>
-        <b:widget-setting name='selectedLabelsList'>video,zblog</b:widget-setting>
+        <b:widget-setting name='selectedLabelsList'>zen-blog,zen-video</b:widget-setting>
         <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
         <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
       </b:widget-settings>
@@ -541,7 +541,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <button aria-expanded='false' aria-label='Open navigation menu' class='menu-titik' type='button'><svg aria-label='Icon Menu Hamburger' class='_Qw' role='img' tabindex='' viewBox='0 0 18 14'><path d='M17.5 2H0.5C0.223858 2 0 1.77614 0 1.5V0.5C0 0.223858 0.223858 0 0.5 0H17.5C17.7761 0 18 0.223858 18 0.5V1.5C18 1.77614 17.7761 2 17.5 2ZM18 7.5V6.5C18 6.22386 17.7761 6 17.5 6H0.5C0.223858 6 0 6.22386 0 6.5V7.5C0 7.77614 0.223858 8 0.5 8H17.5C17.7761 8 18 7.77614 18 7.5ZM18 13.5V12.5C18 12.2239 17.7761 12 17.5 12H0.5C0.223858 12 0 12.2239 0 12.5V13.5C0 13.7761 0.223858 14 0.5 14H17.5C17.7761 14 18 13.7761 18 13.5Z'/></svg></button>
 </div>
 </div>
-<b:section class='binuang__LinkList' id='binuang__LinkList' maxwidgets='1' name='Header Menu Navigasi' preferred='no'>
+<b:section class='binuang__LinkList' id='binuang__LinkList' maxwidgets='3' name='Header Menu Navigasi' preferred='no'>
   <b:widget id='LinkList99' locked='true' title='Menu LinkList Navigasi' type='LinkList' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='text-8'><![CDATA[Wisata & Destinasi]]></b:widget-setting>
@@ -594,13 +594,13 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <b:section class='rianseoWidget' id='rianseoWidget' name='Slider Barner Homepage' showaddelement='no'>
   <b:widget id='Image122' locked='true' title='Ragam Cerita Sukoharjo Makmur' type='Image' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEidJ-lGEQaml8a0eJ_guABbR928oGJM1iwtpFtF7hfcvaSMA8AF5HP2ZTJagKANfRZJ8puTY5SR9JUDVuVGN6L7YEcmrNBveQ2fQnUnV_fz8mymVUtOq5xQf3h-S5WqXLguABvI6nTt_CKdWixlfvI4GJOWsILQiSI4zE1JaDPj4G65JiWLz3BzU-gSziI=s670</b:widget-setting>
-      <b:widget-setting name='displayHeight'>353</b:widget-setting>
+      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiQSRyJJatRWmqpT0lZ_slCAAslPAulJubbdyg4ZnFliJnEmsDpwe72UGsqhn7LgHZaoqe5Ll8hx5dAPousA406S7uGZHsCNjody9HE2iiRz5s0D1g0BBR2PUdDSqkYrFCZGNkHUORzgvYGbPVkzY_oQ-SUL9BpCGbsxn-b1-9mFVzwh5jwhSgBn6OpovUk=s423</b:widget-setting>
+      <b:widget-setting name='displayHeight'>238</b:widget-setting>
       <b:widget-setting name='sectionWidth'>423</b:widget-setting>
-      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-      <b:widget-setting name='displayWidth'>670</b:widget-setting>
-      <b:widget-setting name='link'>/search/label/Image</b:widget-setting>
-      <b:widget-setting name='caption'>Eksplorasi kisah-kisah inspiratif, fakta menarik, dan informasi terkini seputar kehidupan di Sukoharjo.</b:widget-setting>
+      <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+      <b:widget-setting name='displayWidth'>423</b:widget-setting>
+      <b:widget-setting name='link'>/submit</b:widget-setting>
+      <b:widget-setting name='caption'>Mulai tulis kisah-kisah inspiratif, fakta menarik dan informasi terkini seputar kehidupan di Sukoharjo.</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <b:include name='content'/>
@@ -616,7 +616,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <b:if cond='data:caption'>
 <p class='rianseoCaption'><data:caption/></p>
 </b:if>
-<span class='binuang_btn'>Mulai Jelajahi</span>
+<span class='binuang_btn'>Mulai Menulis</span>
 <b:tag class='binuang_a' cond='data:link' expr:href='data:link' name='a'/>
 </div>
 </b:includable>
@@ -625,15 +625,15 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 </div>
 <div id='area-seo'>
 <b:section class='rianseoText' id='rianseoText' name='Text Homepage 1' showaddelement='no'>
-  <b:widget id='Image88' locked='true' title='80,198' type='Image' version='2' visible='true'>
+  <b:widget id='Image88' locked='true' title='100+' type='Image' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'>data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==</b:widget-setting>
       <b:widget-setting name='displayHeight'>1</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>559</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>423</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='displayWidth'>1</b:widget-setting>
-      <b:widget-setting name='link'>/search/label/</b:widget-setting>
-      <b:widget-setting name='caption'><![CDATA[Including: Stock Footage, Photos, Motion Graphics, Presentation Templates, &amp; Print Templates]]></b:widget-setting>
+      <b:widget-setting name='link'>/wisata+kuliner</b:widget-setting>
+      <b:widget-setting name='caption'>Sajian lengkap mengenai Destinasi Wisata dan Kuliner di ke-12 Kecamatan dalam Kabupaten Sukoharjo</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <b:include name='content'/>
@@ -656,15 +656,15 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <div id='xnxx'>
 <style>.binuang_judul2{flex-grow:1;display:flex;justify-content:space-between;align-items:center}.binuang_en{position:absolute;bottom:30px;left:30px}.binuang_caption-seo{display:inline-block;text-transform:uppercase;font-family:Montserrat,Arial,sans-serif;font-weight:800;letter-spacing:.16em;line-height:.9em;font-size:12px}.binuang_caption-seo{color:var(--button-txt-color);opacity:.6}span.binuang_xnxx{font-size:38px;font-family:Montserrat,Arial,sans-serif;font-weight:800;line-height:40px;display:block;color:var(--button-txt-color);transition:all .25s ease-in-out;margin-bottom:5px}</style>
 <b:section class='rianseoXNXX' id='rianseoXNXX' name='Text Homepage 2' showaddelement='no'>
-  <b:widget id='Image89' locked='true' title='20,398' type='Image' version='2' visible='true'>
+  <b:widget id='Image89' locked='true' title='2' type='Image' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'>data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==</b:widget-setting>
       <b:widget-setting name='displayHeight'>1</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>559</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>423</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='displayWidth'>1</b:widget-setting>
-      <b:widget-setting name='link'>/search/label/Music</b:widget-setting>
-      <b:widget-setting name='caption'>Music Digital</b:widget-setting>
+      <b:widget-setting name='link'>/umkm</b:widget-setting>
+      <b:widget-setting name='caption'>#DukungUMKM</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <b:include name='content'/>
@@ -674,7 +674,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <div class='flex_xnxx'>
 <div><span class='binuang_xnxx'><data:title/></span></div>
 <div>
-  <span class='more-angka'><sup>+</sup>467</span>
+  <span class='more-angka'><sup>+</sup>Baru</span>
 <span class='more-xnxx'><data:messages.showMore/></span>
 </div>
 </div>
@@ -690,11 +690,11 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
   </b:widget>
 </b:section>
 <b:section class='rianseoHUB' id='rianseoHUB' name='Text Homepage 3' showaddelement='no'>
-  <b:widget id='Image90' locked='true' title='12,608' type='Image' version='2' visible='true'>
+  <b:widget id='Image90' locked='true' title='10' type='Image' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'>data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==</b:widget-setting>
       <b:widget-setting name='displayHeight'>1</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>559</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>423</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='displayWidth'>1</b:widget-setting>
       <b:widget-setting name='link'>/search/label/Video</b:widget-setting>
@@ -708,7 +708,7 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <div class='flex_xnxx'>
 <div><span class='binuang_xnxx'><data:title/></span></div>
 <div>
-  <span class='more-angka'><sup>+</sup>32</span>
+  <span class='more-angka'><sup>+</sup>Baru</span>
   <span class='more-xnxx'><data:messages.showMore/></span>
   </div>
 </div> 
@@ -726,7 +726,219 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 </div>
 </div>
 </div>
-<b:section class='home__LinkList' id='home__LinkList' maxwidgets='2' name='Menu Link Homepage' preferred='no' showaddelement='yes'>
+<b:section class='home__LinkList' id='home__LinkList' maxwidgets='4' name='Menu Link Homepage' preferred='no' showaddelement='yes'>
+  <b:widget id='HTML3' locked='false' title='' type='HTML' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<style>
+  /* Container utama */
+  .skhcitizen-waktu-sholat-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 8px 12px; /* Diperkecil dari 12px 15px */
+    margin: 10px auto; 
+    width: fit-content; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    gap: 10px; /* Diperkecil dari 15px */
+  }
+
+  /* Bagian Tanggal */
+  .skhcitizen-waktu-sholat-date {
+    font-weight: 600;
+    color: #333333;
+    font-size: 12px; /* Diperkecil dari 14px */
+    padding-right: 12px; /* Diperkecil dari 15px */
+    border-right: 2px solid #eeeeee;
+  }
+
+  /* Container Jadwal */
+  .skhcitizen-waktu-sholat-times {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px; /* Diperkecil dari 10px */
+    flex: 1;
+    justify-content: space-around;
+  }
+
+  /* Kotak masing-masing waktu (Sejajar horizontal) */
+  .skhcitizen-waktu-sholat-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px; /* Diperkecil dari 8px 14px */
+    border-radius: 5px; /* Sedikit diperkecil dari 6px */
+    gap: 4px; /* Diperkecil dari 6px */
+    transition: all 0.3s ease;
+  }
+
+  .skhcitizen-waktu-sholat-label {
+    font-size: 10px; /* Diperkecil dari 12px */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+  }
+
+  .skhcitizen-waktu-sholat-time {
+    font-size: 13px; /* Diperkecil dari 15px */
+    font-weight: 700;
+  }
+
+  /* Ketentuan Warna */
+  .skhcitizen-waktu-sholat-upcoming {
+    background-color: #2ecc71; 
+    color: #ffffff;
+  }
+
+  .skhcitizen-waktu-sholat-current {
+    background-color: #e74c3c; 
+    color: #ffffff;
+    box-shadow: 0 0 6px rgba(231, 76, 60, 0.4);
+  }
+
+  .skhcitizen-waktu-sholat-passed {
+    background-color: #f1f2f6; 
+    color: #a4b0be;
+  }
+
+  /* Responsif untuk layar HP */
+  @media (max-width: 768px) {
+    .skhcitizen-waktu-sholat-wrapper {
+      flex-direction: column;
+      width: 100%; 
+      margin: 10px 0;
+      box-sizing: border-box;
+    }
+    .skhcitizen-waktu-sholat-date {
+      border-right: none;
+      border-bottom: 2px solid #eeeeee;
+      padding-right: 0;
+      padding-bottom: 8px; /* Diperkecil dari 10px */
+      text-align: center;
+      width: 100%;
+    }
+    .skhcitizen-waktu-sholat-item {
+      padding: 4px 8px; /* Diperkecil dari 6px 10px */
+    }
+  }
+</style>
+
+<br/>
+<div id="skhcitizen-waktu-sholat-container" class="skhcitizen-waktu-sholat-wrapper">
+  <div id="skhcitizen-waktu-sholat-date-display" class="skhcitizen-waktu-sholat-date">
+    Memuat tanggal...
+  </div>
+  <div id="skhcitizen-waktu-sholat-times-display" class="skhcitizen-waktu-sholat-times">
+    <span style="font-size: 11px; color: #666;">Memuat jadwal sholat Sukoharjo...</span>
+  </div>
+</div>
+
+<script>
+  (function() {
+    // API Aladhan untuk Kabupaten Sukoharjo
+    const skhcitizenWaktuSholatApiUrl = "https://api.aladhan.com/v1/timingsByCity?city=Sukoharjo&country=Indonesia&method=20";
+    
+    function skhcitizenWaktuSholatUpdateUI() {
+      fetch(skhcitizenWaktuSholatApiUrl)
+        .then(skhcitizenWaktuSholatResponse => skhcitizenWaktuSholatResponse.json())
+        .then(skhcitizenWaktuSholatDataAPI => {
+          if (skhcitizenWaktuSholatDataAPI.code === 200) {
+            const skhcitizenWaktuSholatTimings = skhcitizenWaktuSholatDataAPI.data.timings;
+            
+            // Format Tanggal
+            const skhcitizenWaktuSholatNow = new Date();
+            const skhcitizenWaktuSholatDateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const skhcitizenWaktuSholatDateString = skhcitizenWaktuSholatNow.toLocaleDateString('id-ID', skhcitizenWaktuSholatDateOptions);
+            document.getElementById('skhcitizen-waktu-sholat-date-display').innerText = skhcitizenWaktuSholatDateString;
+
+            // List waktu
+            const skhcitizenWaktuSholatList = [
+              { id: 'Imsak', label: 'Imsak' },
+              { id: 'Fajr', label: 'Subuh' },
+              { id: 'Sunrise', label: 'Terbit' },
+              { id: 'Dhuhr', label: 'Zuhur' },
+              { id: 'Asr', label: 'Ashar' },
+              { id: 'Maghrib', label: 'Maghrib' },
+              { id: 'Isha', label: 'Isya' }
+            ];
+
+            let skhcitizenWaktuSholatHtml = '';
+            let skhcitizenWaktuSholatNextIndex = -1;
+            let skhcitizenWaktuSholatParsedData = [];
+
+            // Parsing waktu
+            skhcitizenWaktuSholatList.forEach(skhcitizenWaktuSholatItem => {
+              const skhcitizenWaktuSholatTimeStr = skhcitizenWaktuSholatTimings[skhcitizenWaktuSholatItem.id];
+              const [skhcitizenWaktuSholatHour, skhcitizenWaktuSholatMinute] = skhcitizenWaktuSholatTimeStr.split(':');
+              const skhcitizenWaktuSholatTimeObj = new Date();
+              skhcitizenWaktuSholatTimeObj.setHours(parseInt(skhcitizenWaktuSholatHour), parseInt(skhcitizenWaktuSholatMinute), 0, 0);
+              
+              skhcitizenWaktuSholatParsedData.push({
+                label: skhcitizenWaktuSholatItem.label,
+                timeStr: skhcitizenWaktuSholatTimeStr,
+                timeObj: skhcitizenWaktuSholatTimeObj
+              });
+            });
+
+            // Cari indeks waktu berikutnya
+            for (let i = 0; i < skhcitizenWaktuSholatParsedData.length; i++) {
+              if (skhcitizenWaktuSholatParsedData[i].timeObj > skhcitizenWaktuSholatNow) {
+                skhcitizenWaktuSholatNextIndex = i;
+                break;
+              }
+            }
+
+            // Render HTML
+            skhcitizenWaktuSholatParsedData.forEach((skhcitizenWaktuSholatItem, skhcitizenWaktuSholatIndex) => {
+              let skhcitizenWaktuSholatStatusClass = '';
+
+              if (skhcitizenWaktuSholatNextIndex === -1) {
+                if (skhcitizenWaktuSholatIndex === skhcitizenWaktuSholatParsedData.length - 1) {
+                  skhcitizenWaktuSholatStatusClass = 'skhcitizen-waktu-sholat-current';
+                } else {
+                  skhcitizenWaktuSholatStatusClass = 'skhcitizen-waktu-sholat-passed';
+                }
+              } else if (skhcitizenWaktuSholatIndex < skhcitizenWaktuSholatNextIndex - 1) {
+                skhcitizenWaktuSholatStatusClass = 'skhcitizen-waktu-sholat-passed';
+              } else if (skhcitizenWaktuSholatIndex === skhcitizenWaktuSholatNextIndex - 1) {
+                skhcitizenWaktuSholatStatusClass = 'skhcitizen-waktu-sholat-current';
+              } else {
+                skhcitizenWaktuSholatStatusClass = 'skhcitizen-waktu-sholat-upcoming';
+              }
+
+              skhcitizenWaktuSholatHtml += `
+                <div class="skhcitizen-waktu-sholat-item ${skhcitizenWaktuSholatStatusClass}">
+                  <span class="skhcitizen-waktu-sholat-label">${skhcitizenWaktuSholatItem.label}</span>
+                  <span class="skhcitizen-waktu-sholat-time">${skhcitizenWaktuSholatItem.timeStr}</span>
+                </div>
+              `;
+            });
+
+            document.getElementById('skhcitizen-waktu-sholat-times-display').innerHTML = skhcitizenWaktuSholatHtml;
+          }
+        })
+        .catch(skhcitizenWaktuSholatError => {
+          document.getElementById('skhcitizen-waktu-sholat-times-display').innerHTML = '<span style="color:red; font-size:11px;">Gagal memuat jadwal sholat.</span>';
+        });
+    }
+
+    skhcitizenWaktuSholatUpdateUI();
+    setInterval(skhcitizenWaktuSholatUpdateUI, 60000);
+  })();
+</script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+  </b:widget>
   <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='content'><![CDATA[<style>
@@ -823,28 +1035,29 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <b:section class='main' id='main' maxwidgets='1' name='Blog Post Settings' showaddelement='yes'>
   <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='2' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
       <b:widget-setting name='commentLabel'>Feedback</b:widget-setting>
-      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showShareButtons'>false</b:widget-setting>
       <b:widget-setting name='authorLabel'>Publisher</b:widget-setting>
-      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-      <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
-      <b:widget-setting name='showAuthor'>true</b:widget-setting>
-      <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='timestampLabel'>Upload</b:widget-setting>
       <b:widget-setting name='reactionsLabel'/>
       <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-      <b:widget-setting name='showLabels'>true</b:widget-setting>
       <b:widget-setting name='showLocation'>false</b:widget-setting>
-      <b:widget-setting name='postLabelsLabel'>Item Tags</b:widget-setting>
       <b:widget-setting name='showTimestamp'>true</b:widget-setting>
       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
       <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='postLocationLabel'>Location:</b:widget-setting>
+      <b:widget-setting name='showAuthor'>true</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showLabels'>true</b:widget-setting>
+      <b:widget-setting name='postLabelsLabel'>Item Tags</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
       <b:widget-setting name='showInlineAds'>false</b:widget-setting>
       <b:widget-setting name='showReactions'>false</b:widget-setting>
     </b:widget-settings>
@@ -1577,7 +1790,526 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
 <!-- Widget Ads -->
 <b:if cond='data:view.isLayoutMode or data:view.isPost'>
 <b:section class='iklan-atas' id='iklan-atas' maxwidgets='1' name='Widget Ads Top' showaddelement='no'>
-  <b:widget id='HTML91' locked='true' title='Ad Code 1' type='HTML' version='2' visible='true'>
+  <b:widget id='HTML91' locked='true' title='Ad Code 1' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<div id="jiaara-iklan-jejer-container" class="jiaara-iklan-jejer-wrapper"></div>
+
+<style>
+  .jiaara-iklan-jejer-wrapper {
+    display: grid;
+    /* Desktop: 4 Kolom */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 85%;
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .jiaara-iklan-jejer-card {
+    border: 1px solid #d4a373; 
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+    transition: transform 0.2s;
+    overflow: hidden; 
+  }
+
+  .jiaara-iklan-jejer-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .jiaara-iklan-jejer-img-box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: #f0f8ff;
+  }
+
+  .jiaara-iklan-jejer-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .jiaara-iklan-jejer-info {
+    border-top: 1px solid #d4a373;
+    padding: 8px 4px;
+    text-align: center;
+    /* Ukuran font disesuaikan agar nyaman dibaca di 4 kolom */
+    font-size: 11px; 
+    line-height: 1.2;
+    font-weight: bold;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    word-break: break-word;
+  }
+
+  /* MEDIA QUERY UNTUK MOBILE (Grid 2x2) */
+  @media (max-width: 768px) {
+    .jiaara-iklan-jejer-wrapper {
+      grid-template-columns: repeat(2, 1fr); /* 2 Kolom, otomatis menjadi 2 baris (2x2) */
+      max-width: 95%; 
+      gap: 8px;
+    }
+    
+    .jiaara-iklan-jejer-info {
+      font-size: 10px; 
+      min-height: 35px;
+    }
+  }
+</style>
+
+<script>
+  (function() {
+    // DATA POOL
+    const jiaara_iklan_jejer_dataPool = [
+      { nama: "Tumbler Stainless Jumbo Hook 890ml", link: "https://s.shopee.co.id/8ATjj9KVMf", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztm-mfakxmwrw5qn32.webp" },
+      { nama: "Tas Ransel Pria Xarier", link: "https://s.shopee.co.id/6pyM8rkdKn", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98t-lvpv60flkn7bf9.webp" },
+      { nama: "Samsung X-PRIME 10.1 inch (16GB+1TB)", link: "https://s.shopee.co.id/gNinpMM7M", img: "https://down-bs-id.img.susercontent.com/id-11134207-822ws-mlz7fom2sp38e5.webp" },
+      { nama: "Payung Lipat Anti Sinar UV", link: "https://s.shopee.co.id/7pqtL7AFy1", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ra0p-mcj21v0fr8d334.webp" },
+      { nama: "Jaket Bolak Balik Unisex", link: "https://s.shopee.co.id/6fevwzIh4T", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasa-m1c6xuid5vbj6e.webp" },
+      { nama: "TV Smart 32-43 inch 4K", link: "https://s.shopee.co.id/5L9YMnq5kU", img: "https://down-bs-id.img.susercontent.com/id-11134207-82251-ml2yuw5y8b2f93.webp" },
+      { nama: "Jaket Bomber Pria", link: "https://s.shopee.co.id/7fXT97pL1r", img: "https://down-bs-id.img.susercontent.com/sg-11134201-7rcbx-lrmse2dnki0oc8.webp" },
+      { nama: "Tumbler Kopi 530ml", link: "https://s.shopee.co.id/9AMGw8zmWg", img: "https://down-bs-id.img.susercontent.com/id-11134207-81zte-mepetpqh2l1c16.webp" },
+      { nama: "Jet Cleaner Alat Cuci Kendaraan", link: "https://s.shopee.co.id/7AbCYVWzBo", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wj-mpevbwitu6805c.webp" },
+      { nama: "DJI Osmo Pocket 3 - Pocket Gimbal Camera", link: "https://s.shopee.co.id/20t6P2i0gv", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasd-m0co4fwhgok65a.webp" },
+      { nama: "Jas Hujan HOODIE", link: "https://s.shopee.co.id/2VpMzzEYaq", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224y-mgc967xvyb670a.webp" },
+      { nama: "Kursi Lipat Outdoor Beban 150kg", link: "https://s.shopee.co.id/9Uz7Krr0hu", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztj-mf6ohegnfpxo1d.webp" },
+      { nama: "Printer All-in-One Canon", link: "https://s.shopee.co.id/9fIXXDyrD7", img: "https://down-bs-id.img.susercontent.com/id-11134207-82250-mj6solvax2br28.webp" },
+      { nama: "Sepeda gunung 26-27,5 inci", link: "https://s.shopee.co.id/2VpN0MughM", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ra0s-md9zie36gt6d7d.webp" },
+      { nama: "Kipas Lipat Portable 199 Level Turbo", link: "https://s.shopee.co.id/6AifN9WiYa", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztl-mens10n52o7480.webp" },
+      { nama: "Lampu jalan tenaga surya", link: "https://s.shopee.co.id/gNipavWKJ", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztq-mejquipnz0g5be.webp" },
+      { nama: "Printer Epson L3211 All-in-One", link: "https://s.shopee.co.id/7fXTAVLLGD", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztl-mf7oad7hdczs9c.webp" },
+      { nama: "CCTV V380 Pro 1080P Kamera CCTV 360", link: "https://s.shopee.co.id/9AMGxAEtQE", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztq-mf3dtbf4mfig1d.webp" },
+      { nama: "MLA J5 Helm Half Face", link: "https://s.shopee.co.id/1gGG1VIHdR", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ras9-m2t9c9n9tkup8c.webp" },
+      { nama: "Infinix Smartwatch S10 Pro Ultra", link: "https://s.shopee.co.id/4LH1CQo4hu", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224t-mfuwwihgfcax99.webp" },
+      { nama: "Kacamata Las Otomatis Auto Dark", link: "https://s.shopee.co.id/40eAnqUBfu", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98s-lvphqqtyte1qe8.webp" },
+      { nama: "Acroder Action Camera 4K", link: "https://s.shopee.co.id/5q5ozEpoZR", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224q-mgw4erby677ub2.webp" },
+      { nama: "Charger Aki Motor Mobil 12V 24V", link: "https://s.shopee.co.id/4ftrb7cT5o", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mhbj3fd5yxor0e.webp" },
+      { nama: "Mesin Cuci Mini Mesin Cuci Mini 4,5 Kg", link: "https://s.shopee.co.id/7fXTAl2Zba", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rbk2-machpfhqzyp7c4.webp" },
+      { nama: "ups wifi 12V+12V mini", link: "https://s.shopee.co.id/60PFEdsXHW", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224r-mi18ejihs7wi60.webp" },
+      { nama: "15.6-inch Display Screen", link: "https://s.shopee.co.id/5Aq8F9lhH4", img: "https://down-bs-id.img.susercontent.com/sg-11134201-82611-mj87s3nqnjeoe3.webp" },
+      { nama: "Thermal Printer Resi A6 Barcode", link: "https://s.shopee.co.id/4LH1FeD0XN", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mi5r9grp2fig1e.webp" },
+      { nama: "set meja belajar anak", link: "https://s.shopee.co.id/8pjQbwD8lb", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98v-lplqxa90u0oe48.webp" },
+      { nama: "MONITOR LED HP 20INCH", link: "https://s.shopee.co.id/5L9YRZG7NC", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mknovcu2wdtz9e.webp" },
+      { nama: "PRINTER BLUETOOTH MINI", link: "https://s.shopee.co.id/4Axb3RP2JQ", img: "https://down-bs-id.img.susercontent.com/dfacda9971c434bf5ebfd799e02e31c3.webp" },
+      { nama: "CUSTOM BOBBER MATIC 115CC", link: "https://s.shopee.co.id/7pqtQX6jCI", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224u-mgbxc3r6nk7edc.webp" },
+      { nama: "BOBBER HARLEY BYSON 155CC 2011", link: "https://s.shopee.co.id/7VE31xbIda", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224x-mhej60w9hc0b6c.webp" },
+      { nama: "Custom Case Aklirik ", link: "https://s.shopee.co.id/7KucqA34uQ", img: "https://down-bs-id.img.susercontent.com/058af34ca75b348bf7fb4cf98d4f060a.webp" },
+      { nama: "Kamera Vlog 4K WIFI", link: "https://s.shopee.co.id/1VwptT712L", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wr-mp8vmuz5e68d1e.webp" },
+      { nama: "JAS HUJAN STELAN", link: "https://s.shopee.co.id/3LOU4rCcqe", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasj-m1o0tnyvtk1da1.webp" },
+      { nama: "Brica B-Steady Stabilizer", link: "https://s.shopee.co.id/1LdPhCXEyg", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224r-mkkn7zhl5m2tad.webp" },
+      { nama: "Tandon Air Praxis Kerang 350 Liter", link: "https://s.shopee.co.id/8ATjpsndLZ", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224y-mggcfqg8acy696.webp" },
+      { nama: "Helm Half Face Pria Wanita JPX", link: "https://s.shopee.co.id/7pqtRIZero", img: "https://down-bs-id.img.susercontent.com/825b874a4dd9034c810a661f44414b37.webp" },
+      { nama: "BLAISE V6 Plus Intercom", link: "https://s.shopee.co.id/8KnA2L1J2w", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224z-mk3fnogem39j05.webp" },
+      { nama: "WiFi Signal Amplifier 1800Mbps 6 Antena", link: "https://s.shopee.co.id/LksVfcRmj", img: "https://down-bs-id.img.susercontent.com/id-11134207-82251-mjz0x5jfi0w0cb.webp" },
+      { nama: "Holder Motor Holder HP", link: "https://s.shopee.co.id/3g1KTp3ufy", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224p-miya2us45uyu0a.webp" },
+      { nama: "MIPOW Power Bank 5000Mah", link: "https://s.shopee.co.id/3VhuD0bDjn", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wr-mnfcxkjbu48wa9.webp" }
+    ];
+
+    // Filter data kosong (kalau ada yang link/img-nya "#")
+    const validData = jiaara_iklan_jejer_dataPool.filter(p => p.link !== "#" && p.img !== "#");
+
+    function jiaara_iklan_jejer_shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function jiaara_iklan_jejer_init() {
+      const container = document.getElementById('jiaara-iklan-jejer-container');
+      if (!container) return;
+
+      // Acak data dan pastikan ambil 4 item saja (untuk Desktop & Mobile)
+      const shuffled = jiaara_iklan_jejer_shuffle([...validData]);
+      const selected = shuffled.slice(0, 4);
+
+      let html = '';
+      selected.forEach(p => {
+        html += `
+          <a href="${p.link}" target="_blank" rel="noopener noreferrer" class="jiaara-iklan-jejer-card">
+            <div class="jiaara-iklan-jejer-img-box">
+              <img src="${p.img}" alt="${p.nama}" loading="lazy">
+            </div>
+            <div class="jiaara-iklan-jejer-info">${p.nama}</div>
+          </a>`;
+      });
+      container.innerHTML = html;
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', jiaara_iklan_jejer_init);
+    } else {
+      jiaara_iklan_jejer_init();
+    }
+  })();
+</script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='widget-content'>
+                      <data:content/>
+                    </div>
+                  </b:includable>
+  </b:widget>
+</b:section>
+<b:section class='iklan-tengah1' id='iklan-tengah1' maxwidgets='1' name='Widget Ads Center 1' showaddelement='no'>
+  <b:widget id='HTML92' locked='true' title='Ad Code 001' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<div id="jiaara-iklan-jejer-container" class="jiaara-iklan-jejer-wrapper"></div>
+
+<style>
+  .jiaara-iklan-jejer-wrapper {
+    display: grid;
+    /* Desktop: 4 Kolom */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 85%;
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .jiaara-iklan-jejer-card {
+    border: 1px solid #d4a373; 
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+    transition: transform 0.2s;
+    overflow: hidden; 
+  }
+
+  .jiaara-iklan-jejer-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .jiaara-iklan-jejer-img-box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: #f0f8ff;
+  }
+
+  .jiaara-iklan-jejer-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .jiaara-iklan-jejer-info {
+    border-top: 1px solid #d4a373;
+    padding: 8px 4px;
+    text-align: center;
+    /* Ukuran font disesuaikan agar nyaman dibaca di 4 kolom */
+    font-size: 11px; 
+    line-height: 1.2;
+    font-weight: bold;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    word-break: break-word;
+  }
+
+  /* MEDIA QUERY UNTUK MOBILE (Grid 2x2) */
+  @media (max-width: 768px) {
+    .jiaara-iklan-jejer-wrapper {
+      grid-template-columns: repeat(2, 1fr); /* 2 Kolom, otomatis menjadi 2 baris (2x2) */
+      max-width: 95%; 
+      gap: 8px;
+    }
+    
+    .jiaara-iklan-jejer-info {
+      font-size: 10px; 
+      min-height: 35px;
+    }
+  }
+</style>
+
+<script>
+  (function() {
+    // DATA POOL
+    const jiaara_iklan_jejer_dataPool = [
+      { nama: "Tumbler Stainless Jumbo Hook 890ml", link: "https://s.shopee.co.id/8ATjj9KVMf", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztm-mfakxmwrw5qn32.webp" },
+      { nama: "Tas Ransel Pria Xarier", link: "https://s.shopee.co.id/6pyM8rkdKn", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98t-lvpv60flkn7bf9.webp" },
+      { nama: "Samsung X-PRIME 10.1 inch (16GB+1TB)", link: "https://s.shopee.co.id/gNinpMM7M", img: "https://down-bs-id.img.susercontent.com/id-11134207-822ws-mlz7fom2sp38e5.webp" },
+      { nama: "Payung Lipat Anti Sinar UV", link: "https://s.shopee.co.id/7pqtL7AFy1", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ra0p-mcj21v0fr8d334.webp" },
+      { nama: "Jaket Bolak Balik Unisex", link: "https://s.shopee.co.id/6fevwzIh4T", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasa-m1c6xuid5vbj6e.webp" },
+      { nama: "TV Smart 32-43 inch 4K", link: "https://s.shopee.co.id/5L9YMnq5kU", img: "https://down-bs-id.img.susercontent.com/id-11134207-82251-ml2yuw5y8b2f93.webp" },
+      { nama: "Jaket Bomber Pria", link: "https://s.shopee.co.id/7fXT97pL1r", img: "https://down-bs-id.img.susercontent.com/sg-11134201-7rcbx-lrmse2dnki0oc8.webp" },
+      { nama: "Tumbler Kopi 530ml", link: "https://s.shopee.co.id/9AMGw8zmWg", img: "https://down-bs-id.img.susercontent.com/id-11134207-81zte-mepetpqh2l1c16.webp" },
+      { nama: "Jet Cleaner Alat Cuci Kendaraan", link: "https://s.shopee.co.id/7AbCYVWzBo", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wj-mpevbwitu6805c.webp" },
+      { nama: "DJI Osmo Pocket 3 - Pocket Gimbal Camera", link: "https://s.shopee.co.id/20t6P2i0gv", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasd-m0co4fwhgok65a.webp" },
+      { nama: "Jas Hujan HOODIE", link: "https://s.shopee.co.id/2VpMzzEYaq", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224y-mgc967xvyb670a.webp" },
+      { nama: "Kursi Lipat Outdoor Beban 150kg", link: "https://s.shopee.co.id/9Uz7Krr0hu", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztj-mf6ohegnfpxo1d.webp" },
+      { nama: "Printer All-in-One Canon", link: "https://s.shopee.co.id/9fIXXDyrD7", img: "https://down-bs-id.img.susercontent.com/id-11134207-82250-mj6solvax2br28.webp" },
+      { nama: "Sepeda gunung 26-27,5 inci", link: "https://s.shopee.co.id/2VpN0MughM", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ra0s-md9zie36gt6d7d.webp" },
+      { nama: "Kipas Lipat Portable 199 Level Turbo", link: "https://s.shopee.co.id/6AifN9WiYa", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztl-mens10n52o7480.webp" },
+      { nama: "Lampu jalan tenaga surya", link: "https://s.shopee.co.id/gNipavWKJ", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztq-mejquipnz0g5be.webp" },
+      { nama: "Printer Epson L3211 All-in-One", link: "https://s.shopee.co.id/7fXTAVLLGD", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztl-mf7oad7hdczs9c.webp" },
+      { nama: "CCTV V380 Pro 1080P Kamera CCTV 360", link: "https://s.shopee.co.id/9AMGxAEtQE", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztq-mf3dtbf4mfig1d.webp" },
+      { nama: "MLA J5 Helm Half Face", link: "https://s.shopee.co.id/1gGG1VIHdR", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ras9-m2t9c9n9tkup8c.webp" },
+      { nama: "Infinix Smartwatch S10 Pro Ultra", link: "https://s.shopee.co.id/4LH1CQo4hu", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224t-mfuwwihgfcax99.webp" },
+      { nama: "Kacamata Las Otomatis Auto Dark", link: "https://s.shopee.co.id/40eAnqUBfu", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98s-lvphqqtyte1qe8.webp" },
+      { nama: "Acroder Action Camera 4K", link: "https://s.shopee.co.id/5q5ozEpoZR", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224q-mgw4erby677ub2.webp" },
+      { nama: "Charger Aki Motor Mobil 12V 24V", link: "https://s.shopee.co.id/4ftrb7cT5o", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mhbj3fd5yxor0e.webp" },
+      { nama: "Mesin Cuci Mini Mesin Cuci Mini 4,5 Kg", link: "https://s.shopee.co.id/7fXTAl2Zba", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rbk2-machpfhqzyp7c4.webp" },
+      { nama: "ups wifi 12V+12V mini", link: "https://s.shopee.co.id/60PFEdsXHW", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224r-mi18ejihs7wi60.webp" },
+      { nama: "15.6-inch Display Screen", link: "https://s.shopee.co.id/5Aq8F9lhH4", img: "https://down-bs-id.img.susercontent.com/sg-11134201-82611-mj87s3nqnjeoe3.webp" },
+      { nama: "Thermal Printer Resi A6 Barcode", link: "https://s.shopee.co.id/4LH1FeD0XN", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mi5r9grp2fig1e.webp" },
+      { nama: "set meja belajar anak", link: "https://s.shopee.co.id/8pjQbwD8lb", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98v-lplqxa90u0oe48.webp" },
+      { nama: "MONITOR LED HP 20INCH", link: "https://s.shopee.co.id/5L9YRZG7NC", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mknovcu2wdtz9e.webp" },
+      { nama: "PRINTER BLUETOOTH MINI", link: "https://s.shopee.co.id/4Axb3RP2JQ", img: "https://down-bs-id.img.susercontent.com/dfacda9971c434bf5ebfd799e02e31c3.webp" },
+      { nama: "CUSTOM BOBBER MATIC 115CC", link: "https://s.shopee.co.id/7pqtQX6jCI", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224u-mgbxc3r6nk7edc.webp" },
+      { nama: "BOBBER HARLEY BYSON 155CC 2011", link: "https://s.shopee.co.id/7VE31xbIda", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224x-mhej60w9hc0b6c.webp" },
+      { nama: "Custom Case Aklirik ", link: "https://s.shopee.co.id/7KucqA34uQ", img: "https://down-bs-id.img.susercontent.com/058af34ca75b348bf7fb4cf98d4f060a.webp" },
+      { nama: "Kamera Vlog 4K WIFI", link: "https://s.shopee.co.id/1VwptT712L", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wr-mp8vmuz5e68d1e.webp" },
+      { nama: "JAS HUJAN STELAN", link: "https://s.shopee.co.id/3LOU4rCcqe", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasj-m1o0tnyvtk1da1.webp" },
+      { nama: "Brica B-Steady Stabilizer", link: "https://s.shopee.co.id/1LdPhCXEyg", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224r-mkkn7zhl5m2tad.webp" },
+      { nama: "Tandon Air Praxis Kerang 350 Liter", link: "https://s.shopee.co.id/8ATjpsndLZ", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224y-mggcfqg8acy696.webp" },
+      { nama: "Helm Half Face Pria Wanita JPX", link: "https://s.shopee.co.id/7pqtRIZero", img: "https://down-bs-id.img.susercontent.com/825b874a4dd9034c810a661f44414b37.webp" },
+      { nama: "BLAISE V6 Plus Intercom", link: "https://s.shopee.co.id/8KnA2L1J2w", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224z-mk3fnogem39j05.webp" },
+      { nama: "WiFi Signal Amplifier 1800Mbps 6 Antena", link: "https://s.shopee.co.id/LksVfcRmj", img: "https://down-bs-id.img.susercontent.com/id-11134207-82251-mjz0x5jfi0w0cb.webp" },
+      { nama: "Holder Motor Holder HP", link: "https://s.shopee.co.id/3g1KTp3ufy", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224p-miya2us45uyu0a.webp" },
+      { nama: "MIPOW Power Bank 5000Mah", link: "https://s.shopee.co.id/3VhuD0bDjn", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wr-mnfcxkjbu48wa9.webp" }
+    ];
+
+    // Filter data kosong (kalau ada yang link/img-nya "#")
+    const validData = jiaara_iklan_jejer_dataPool.filter(p => p.link !== "#" && p.img !== "#");
+
+    function jiaara_iklan_jejer_shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function jiaara_iklan_jejer_init() {
+      const container = document.getElementById('jiaara-iklan-jejer-container');
+      if (!container) return;
+
+      // Acak data dan pastikan ambil 4 item saja (untuk Desktop & Mobile)
+      const shuffled = jiaara_iklan_jejer_shuffle([...validData]);
+      const selected = shuffled.slice(0, 4);
+
+      let html = '';
+      selected.forEach(p => {
+        html += `
+          <a href="${p.link}" target="_blank" rel="noopener noreferrer" class="jiaara-iklan-jejer-card">
+            <div class="jiaara-iklan-jejer-img-box">
+              <img src="${p.img}" alt="${p.nama}" loading="lazy">
+            </div>
+            <div class="jiaara-iklan-jejer-info">${p.nama}</div>
+          </a>`;
+      });
+      container.innerHTML = html;
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', jiaara_iklan_jejer_init);
+    } else {
+      jiaara_iklan_jejer_init();
+    }
+  })();
+</script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='widget-content'>
+                      <data:content/>
+                    </div>   
+                  </b:includable>
+  </b:widget>
+</b:section>
+<b:section class='iklan-tengah2' id='iklan-tengah2' maxwidgets='1' name='Widget Ads Center 2' showaddelement='no'>
+  <b:widget id='HTML93' locked='true' title='Ad Code 002' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<div id="jiaara-iklan-jejer-container" class="jiaara-iklan-jejer-wrapper"></div>
+
+<style>
+  .jiaara-iklan-jejer-wrapper {
+    display: grid;
+    /* Desktop: 4 Kolom */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 85%;
+    margin: 20px auto; 
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .jiaara-iklan-jejer-card {
+    border: 1px solid #d4a373; 
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+    transition: transform 0.2s;
+    overflow: hidden; 
+  }
+
+  .jiaara-iklan-jejer-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .jiaara-iklan-jejer-img-box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: #f0f8ff;
+  }
+
+  .jiaara-iklan-jejer-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .jiaara-iklan-jejer-info {
+    border-top: 1px solid #d4a373;
+    padding: 8px 4px;
+    text-align: center;
+    /* Ukuran font disesuaikan agar nyaman dibaca di 4 kolom */
+    font-size: 11px; 
+    line-height: 1.2;
+    font-weight: bold;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    word-break: break-word;
+  }
+
+  /* MEDIA QUERY UNTUK MOBILE (Grid 2x2) */
+  @media (max-width: 768px) {
+    .jiaara-iklan-jejer-wrapper {
+      grid-template-columns: repeat(2, 1fr); /* 2 Kolom, otomatis menjadi 2 baris (2x2) */
+      max-width: 95%; 
+      gap: 8px;
+    }
+    
+    .jiaara-iklan-jejer-info {
+      font-size: 10px; 
+      min-height: 35px;
+    }
+  }
+</style>
+
+<script>
+  (function() {
+    // DATA POOL
+    const jiaara_iklan_jejer_dataPool = [
+      { nama: "Tumbler Stainless Jumbo Hook 890ml", link: "https://s.shopee.co.id/8ATjj9KVMf", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztm-mfakxmwrw5qn32.webp" },
+      { nama: "Tas Ransel Pria Xarier", link: "https://s.shopee.co.id/6pyM8rkdKn", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98t-lvpv60flkn7bf9.webp" },
+      { nama: "Samsung X-PRIME 10.1 inch (16GB+1TB)", link: "https://s.shopee.co.id/gNinpMM7M", img: "https://down-bs-id.img.susercontent.com/id-11134207-822ws-mlz7fom2sp38e5.webp" },
+      { nama: "Payung Lipat Anti Sinar UV", link: "https://s.shopee.co.id/7pqtL7AFy1", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ra0p-mcj21v0fr8d334.webp" },
+      { nama: "Jaket Bolak Balik Unisex", link: "https://s.shopee.co.id/6fevwzIh4T", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasa-m1c6xuid5vbj6e.webp" },
+      { nama: "TV Smart 32-43 inch 4K", link: "https://s.shopee.co.id/5L9YMnq5kU", img: "https://down-bs-id.img.susercontent.com/id-11134207-82251-ml2yuw5y8b2f93.webp" },
+      { nama: "Jaket Bomber Pria", link: "https://s.shopee.co.id/7fXT97pL1r", img: "https://down-bs-id.img.susercontent.com/sg-11134201-7rcbx-lrmse2dnki0oc8.webp" },
+      { nama: "Tumbler Kopi 530ml", link: "https://s.shopee.co.id/9AMGw8zmWg", img: "https://down-bs-id.img.susercontent.com/id-11134207-81zte-mepetpqh2l1c16.webp" },
+      { nama: "Jet Cleaner Alat Cuci Kendaraan", link: "https://s.shopee.co.id/7AbCYVWzBo", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wj-mpevbwitu6805c.webp" },
+      { nama: "DJI Osmo Pocket 3 - Pocket Gimbal Camera", link: "https://s.shopee.co.id/20t6P2i0gv", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasd-m0co4fwhgok65a.webp" },
+      { nama: "Jas Hujan HOODIE", link: "https://s.shopee.co.id/2VpMzzEYaq", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224y-mgc967xvyb670a.webp" },
+      { nama: "Kursi Lipat Outdoor Beban 150kg", link: "https://s.shopee.co.id/9Uz7Krr0hu", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztj-mf6ohegnfpxo1d.webp" },
+      { nama: "Printer All-in-One Canon", link: "https://s.shopee.co.id/9fIXXDyrD7", img: "https://down-bs-id.img.susercontent.com/id-11134207-82250-mj6solvax2br28.webp" },
+      { nama: "Sepeda gunung 26-27,5 inci", link: "https://s.shopee.co.id/2VpN0MughM", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ra0s-md9zie36gt6d7d.webp" },
+      { nama: "Kipas Lipat Portable 199 Level Turbo", link: "https://s.shopee.co.id/6AifN9WiYa", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztl-mens10n52o7480.webp" },
+      { nama: "Lampu jalan tenaga surya", link: "https://s.shopee.co.id/gNipavWKJ", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztq-mejquipnz0g5be.webp" },
+      { nama: "Printer Epson L3211 All-in-One", link: "https://s.shopee.co.id/7fXTAVLLGD", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztl-mf7oad7hdczs9c.webp" },
+      { nama: "CCTV V380 Pro 1080P Kamera CCTV 360", link: "https://s.shopee.co.id/9AMGxAEtQE", img: "https://down-bs-id.img.susercontent.com/id-11134207-81ztq-mf3dtbf4mfig1d.webp" },
+      { nama: "MLA J5 Helm Half Face", link: "https://s.shopee.co.id/1gGG1VIHdR", img: "https://down-bs-id.img.susercontent.com/id-11134207-7ras9-m2t9c9n9tkup8c.webp" },
+      { nama: "Infinix Smartwatch S10 Pro Ultra", link: "https://s.shopee.co.id/4LH1CQo4hu", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224t-mfuwwihgfcax99.webp" },
+      { nama: "Kacamata Las Otomatis Auto Dark", link: "https://s.shopee.co.id/40eAnqUBfu", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98s-lvphqqtyte1qe8.webp" },
+      { nama: "Acroder Action Camera 4K", link: "https://s.shopee.co.id/5q5ozEpoZR", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224q-mgw4erby677ub2.webp" },
+      { nama: "Charger Aki Motor Mobil 12V 24V", link: "https://s.shopee.co.id/4ftrb7cT5o", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mhbj3fd5yxor0e.webp" },
+      { nama: "Mesin Cuci Mini Mesin Cuci Mini 4,5 Kg", link: "https://s.shopee.co.id/7fXTAl2Zba", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rbk2-machpfhqzyp7c4.webp" },
+      { nama: "ups wifi 12V+12V mini", link: "https://s.shopee.co.id/60PFEdsXHW", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224r-mi18ejihs7wi60.webp" },
+      { nama: "15.6-inch Display Screen", link: "https://s.shopee.co.id/5Aq8F9lhH4", img: "https://down-bs-id.img.susercontent.com/sg-11134201-82611-mj87s3nqnjeoe3.webp" },
+      { nama: "Thermal Printer Resi A6 Barcode", link: "https://s.shopee.co.id/4LH1FeD0XN", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mi5r9grp2fig1e.webp" },
+      { nama: "set meja belajar anak", link: "https://s.shopee.co.id/8pjQbwD8lb", img: "https://down-bs-id.img.susercontent.com/id-11134207-7r98v-lplqxa90u0oe48.webp" },
+      { nama: "MONITOR LED HP 20INCH", link: "https://s.shopee.co.id/5L9YRZG7NC", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224s-mknovcu2wdtz9e.webp" },
+      { nama: "PRINTER BLUETOOTH MINI", link: "https://s.shopee.co.id/4Axb3RP2JQ", img: "https://down-bs-id.img.susercontent.com/dfacda9971c434bf5ebfd799e02e31c3.webp" },
+      { nama: "CUSTOM BOBBER MATIC 115CC", link: "https://s.shopee.co.id/7pqtQX6jCI", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224u-mgbxc3r6nk7edc.webp" },
+      { nama: "BOBBER HARLEY BYSON 155CC 2011", link: "https://s.shopee.co.id/7VE31xbIda", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224x-mhej60w9hc0b6c.webp" },
+      { nama: "Custom Case Aklirik ", link: "https://s.shopee.co.id/7KucqA34uQ", img: "https://down-bs-id.img.susercontent.com/058af34ca75b348bf7fb4cf98d4f060a.webp" },
+      { nama: "Kamera Vlog 4K WIFI", link: "https://s.shopee.co.id/1VwptT712L", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wr-mp8vmuz5e68d1e.webp" },
+      { nama: "JAS HUJAN STELAN", link: "https://s.shopee.co.id/3LOU4rCcqe", img: "https://down-bs-id.img.susercontent.com/id-11134207-7rasj-m1o0tnyvtk1da1.webp" },
+      { nama: "Brica B-Steady Stabilizer", link: "https://s.shopee.co.id/1LdPhCXEyg", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224r-mkkn7zhl5m2tad.webp" },
+      { nama: "Tandon Air Praxis Kerang 350 Liter", link: "https://s.shopee.co.id/8ATjpsndLZ", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224y-mggcfqg8acy696.webp" },
+      { nama: "Helm Half Face Pria Wanita JPX", link: "https://s.shopee.co.id/7pqtRIZero", img: "https://down-bs-id.img.susercontent.com/825b874a4dd9034c810a661f44414b37.webp" },
+      { nama: "BLAISE V6 Plus Intercom", link: "https://s.shopee.co.id/8KnA2L1J2w", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224z-mk3fnogem39j05.webp" },
+      { nama: "WiFi Signal Amplifier 1800Mbps 6 Antena", link: "https://s.shopee.co.id/LksVfcRmj", img: "https://down-bs-id.img.susercontent.com/id-11134207-82251-mjz0x5jfi0w0cb.webp" },
+      { nama: "Holder Motor Holder HP", link: "https://s.shopee.co.id/3g1KTp3ufy", img: "https://down-bs-id.img.susercontent.com/id-11134207-8224p-miya2us45uyu0a.webp" },
+      { nama: "MIPOW Power Bank 5000Mah", link: "https://s.shopee.co.id/3VhuD0bDjn", img: "https://down-bs-id.img.susercontent.com/id-11134207-822wr-mnfcxkjbu48wa9.webp" }
+    ];
+
+    // Filter data kosong (kalau ada yang link/img-nya "#")
+    const validData = jiaara_iklan_jejer_dataPool.filter(p => p.link !== "#" && p.img !== "#");
+
+    function jiaara_iklan_jejer_shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function jiaara_iklan_jejer_init() {
+      const container = document.getElementById('jiaara-iklan-jejer-container');
+      if (!container) return;
+
+      // Acak data dan pastikan ambil 4 item saja (untuk Desktop & Mobile)
+      const shuffled = jiaara_iklan_jejer_shuffle([...validData]);
+      const selected = shuffled.slice(0, 4);
+
+      let html = '';
+      selected.forEach(p => {
+        html += `
+          <a href="${p.link}" target="_blank" rel="noopener noreferrer" class="jiaara-iklan-jejer-card">
+            <div class="jiaara-iklan-jejer-img-box">
+              <img src="${p.img}" alt="${p.nama}" loading="lazy">
+            </div>
+            <div class="jiaara-iklan-jejer-info">${p.nama}</div>
+          </a>`;
+      });
+      container.innerHTML = html;
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', jiaara_iklan_jejer_init);
+    } else {
+      jiaara_iklan_jejer_init();
+    }
+  })();
+</script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='widget-content'>
+                      <data:content/>
+                    </div>   
+                  </b:includable>
+  </b:widget>
+</b:section>
+<b:section class='iklan-bawah' id='iklan-bawah' maxwidgets='1' name='Widget Ads Down' showaddelement='no'>
+  <b:widget id='HTML94' locked='true' title='Ad Code 4' type='HTML' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='content'><![CDATA[<style>
   /* Pembungkus Banner Utama */
@@ -1625,45 +2357,10 @@ body {background:#f5f5f5;}#blog-pager, #sidebar-wrapper, .breadcrumbs {display: 
   }
 </style>
 
+<br/>
 <div class="skh-disclaimer-banner">
-  <p><strong>SKHCITIZEN</strong> adalah platform blog. Konten ini menjadi tanggung jawab penulis dan tidak mewakili pandangan redaksi <strong>SKHCITIZEN</strong> dan <strong>JIAARA.ID</strong>.</p>
+  <p><strong>SKHCITIZEN</strong> adalah platform blog. Semua konten menjadi tanggung jawab penulis dan tidak mewakili pandangan redaksi <strong>SKHCITIZEN</strong> dan <strong>JIAARA.ID</strong>.</p>
 </div>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-                    <div class='widget-content'>
-                      <data:content/>
-                    </div>
-                  </b:includable>
-  </b:widget>
-</b:section>
-<b:section class='iklan-tengah1' id='iklan-tengah1' maxwidgets='1' name='Widget Ads Center 1' showaddelement='no'>
-  <b:widget id='HTML92' locked='true' title='Ad Code 001' type='HTML' version='2' visible='true'>
-    <b:widget-settings>
-      <b:widget-setting name='content'/>
-    </b:widget-settings>
-    <b:includable id='main'>
-                    <div class='widget-content'>
-                      <data:content/>
-                    </div>   
-                  </b:includable>
-  </b:widget>
-</b:section>
-<b:section class='iklan-tengah2' id='iklan-tengah2' maxwidgets='1' name='Widget Ads Center 2' showaddelement='no'>
-  <b:widget id='HTML93' locked='true' title='Ad Code 002' type='HTML' version='2' visible='true'>
-    <b:widget-settings>
-      <b:widget-setting name='content'/>
-    </b:widget-settings>
-    <b:includable id='main'>
-                    <div class='widget-content'>
-                      <data:content/>
-                    </div>   
-                  </b:includable>
-  </b:widget>
-</b:section>
-<b:section class='iklan-bawah' id='iklan-bawah' maxwidgets='1' name='Widget Ads Down' showaddelement='no'>
-  <b:widget id='HTML94' locked='true' title='Ad Code 4' type='HTML' version='2' visible='true'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#" target="_blank">Responsive Advertisement</a>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
                     <div class='widget-content'>
