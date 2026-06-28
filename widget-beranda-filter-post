@@ -1,0 +1,239 @@
+<!-- SKHCITIZEN FILTER COMPONENT -->
+<div id="skhcitizen-filter-blog-wrapper">
+    <!-- Filter Bar -->
+    <div class="skhcitizen-filter-blog-top-bar">
+        <div class="skhcitizen-filter-blog-select-group">
+            <select id="skhcitizen-filter-blog-category" onchange="skhcitizenFilterBlogMain()">
+                <option value="" />Kategori
+            </select>
+            <select id="skhcitizen-filter-blog-type" onchange="skhcitizenFilterBlogMain()">
+                <option value="" />Jenis Konten
+                <option value="zen-blog" />Blog
+                <option value="zen-video" />Video
+            </select>
+            <select id="skhcitizen-filter-blog-district" onchange="skhcitizenFilterBlogMain()">
+                <option value="" />Kecamatan
+                <option value="Sukoharjo" />Sukoharjo
+                <option value="Nguter" />Nguter
+                <option value="Kartasura" />Kartasura
+                <option value="Gatak" />Gatak
+                <option value="Grogol" />Grogol
+                <option value="Baki" />Baki
+                <option value="Polokarto" />Polokarto
+                <option value="Mojolaban" />Mojolaban
+                <option value="Bendosari" />Bendosari
+                <option value="Tawangsari" />Tawangsari
+                <option value="Weru" />Weru
+                <option value="Bulu" />Bulu
+            </select>
+            <select id="skhcitizen-filter-blog-sort" onchange="skhcitizenFilterBlogMain()">
+                <option value="latest" />Terbaru
+                <option value="oldest" />Terlama
+                <option value="az" />A - Z
+                <option value="za" />Z - A
+            </select>
+        </div>
+        
+        <div class="skhcitizen-filter-blog-search-container">
+            <input type="text" id="skhcitizen-filter-blog-input" placeholder="Ketikan Judul di sini ...." onkeyup="skhcitizenFilterBlogMain()" />
+            <button class="skhcitizen-filter-blog-btn-search">
+                <svg viewbox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></path></svg>
+                CARI
+            </button>
+        </div>
+    </div>
+
+    <!-- Content Grid -->
+    <div id="skhcitizen-filter-blog-grid" class="skhcitizen-filter-blog-grid">
+        <div class="skhcitizen-filter-blog-loading">Memuat data...</div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="skhcitizen-filter-blog-pagination" id="skhcitizen-filter-blog-pagination"></div>
+</div>
+
+<style>
+    #skhcitizen-filter-blog-wrapper { font-family: 'Segoe UI', Roboto, Arial, sans-serif; max-width: 1000px; margin: 20px auto; color: #333; }
+    .skhcitizen-filter-blog-top-bar { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 25px; align-items: center; justify-content: space-between; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+    .skhcitizen-filter-blog-select-group { display: flex; gap: 10px; flex-wrap: wrap; }
+    .skhcitizen-filter-blog-top-bar select { border: none; background: transparent; padding: 5px 10px; cursor: pointer; font-weight: 600; color: #444; outline: none; }
+    .skhcitizen-filter-blog-search-container { display: flex; flex: 1; min-width: 250px; max-width: 500px; background: #f1f1f1; border-radius: 8px; overflow: hidden; }
+    .skhcitizen-filter-blog-search-container input { flex: 1; border: none; background: transparent; padding: 12px 15px; outline: none; font-size: 14px; }
+    .skhcitizen-filter-blog-btn-search { background: #ff6b4a; color: white; border: none; padding: 0 20px; display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: bold; }
+    .skhcitizen-filter-blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; min-height: 400px; }
+    .skhcitizen-filter-blog-card { border: 1px solid #e0e0e0; border-radius: 12px; overflow: hidden; transition: transform 0.2s; background: #fff; height: 100%; display: flex; flex-direction: column; }
+    .skhcitizen-filter-blog-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+    .skhcitizen-filter-blog-thumb { width: 100%; height: 180px; background: #f0f0f0; position: relative; overflow: hidden; flex-shrink: 0; }
+    .skhcitizen-filter-blog-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .skhcitizen-filter-blog-content { padding: 15px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+    .skhcitizen-filter-blog-title { font-size: 15px; font-weight: 700; margin-bottom: 10px; line-height: 1.4; color: #222; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .skhcitizen-filter-blog-footer { display: flex; justify-content: space-between; align-items: center; font-size: 11px; color: #777; border-top: 1px solid #f5f5f5; padding-top: 10px; margin-top: auto; }
+    .skhcitizen-filter-blog-label-tag { color: #888; font-style: italic; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 50%; text-align: right; }
+    .skhcitizen-filter-blog-author { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 50%; }
+    .skhcitizen-filter-blog-pagination { display: flex; justify-content: center; gap: 8px; margin-top: 30px; }
+    .skhcitizen-filter-blog-page-btn { padding: 8px 14px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; background: white; transition: 0.2s; }
+    .skhcitizen-filter-blog-page-btn.active { background: #ff6b4a; color: white; border-color: #ff6b4a; }
+    @media (max-width: 600px) { .skhcitizen-filter-blog-top-bar { flex-direction: column; align-items: stretch; } }
+</style>
+
+<script>
+    let skhcitizen_allPosts = [];
+    let skhcitizen_currentPage = 1;
+    const skhcitizen_postsPerPage = 6;
+    const skhcitizen_districts = ["sukoharjo", "nguter", "kartasura", "gatak", "grogol", "baki", "polokarto", "mojolaban", "bendosari", "tawangsari", "weru", "bulu"];
+
+    async function skhcitizenFetchBloggerPosts() {
+        try {
+            // Mengambil feed default agar mendapatkan isi konten (summary kadang memotong ID)
+            const response = await fetch('/feeds/posts/default?alt=json&max-results=500');
+            const data = await response.json();
+            const entries = data.feed.entry || [];
+
+            skhcitizen_allPosts = entries.map(entry => {
+                const labels = entry.category ? entry.category.map(c => c.term) : [];
+                
+                // MENCARI NAMA PENULIS DI DALAM KONTEN
+                const content = entry.content ? entry.content.$t : (entry.summary ? entry.summary.$t : "");
+                let customAuthor = "SKH Citizen"; // Default jika tidak ditemukan
+                
+                // Regex untuk mencari teks di dalam elemen dengan id="nama-penulis"
+                // Mencari pattern: id="nama-penulis">Nama Disini<
+                const authorMatch = content.match(/id=["']nama-penulis["'][^>]*>([^<]+)</i);
+                if (authorMatch && authorMatch[1]) {
+                    customAuthor = authorMatch[1].trim();
+                }
+
+                let imgUrl = "";
+                if (entry.media$thumbnail) {
+                    imgUrl = entry.media$thumbnail.url.replace('s72-c', 's400');
+                } else {
+                    const imgMatch = content.match(/<img[^>]+src="([^">]+)"/);
+                    if (imgMatch) imgUrl = imgMatch[1];
+                }
+
+                return {
+                    title: entry.title.$t,
+                    link: entry.link.find(l => l.rel === 'alternate').href,
+                    author: customAuthor, // Hasil ekstraksi dari ID
+                    date: new Date(entry.published.$t),
+                    labels: labels,
+                    thumbnail: imgUrl
+                };
+            });
+
+            skhcitizenPopulateCategories();
+            skhcitizenFilterBlogMain();
+        } catch (error) {
+            console.error(error);
+            document.getElementById('skhcitizen-filter-blog-grid').innerHTML = "Gagal memuat data.";
+        }
+    }
+
+    function skhcitizenPopulateCategories() {
+        const catSelect = document.getElementById('skhcitizen-filter-blog-category');
+        let uniqueLabels = new Set();
+        skhcitizen_allPosts.forEach(post => {
+            post.labels.forEach(label => {
+                const clean = label.trim();
+                const low = clean.toLowerCase();
+                if (!low.startsWith('zen-') && !skhcitizen_districts.includes(low)) {
+                    uniqueLabels.add(clean);
+                }
+            });
+        });
+        Array.from(uniqueLabels).sort().forEach(label => {
+            const opt = document.createElement('option');
+            opt.value = label; opt.textContent = label;
+            catSelect.appendChild(opt);
+        });
+    }
+
+    function skhcitizenFilterBlogMain(resetPage = true) {
+        if (resetPage) skhcitizen_currentPage = 1;
+        const search = document.getElementById('skhcitizen-filter-blog-input').value.toLowerCase();
+        const cat = document.getElementById('skhcitizen-filter-blog-category').value;
+        const type = document.getElementById('skhcitizen-filter-blog-type').value;
+        const dist = document.getElementById('skhcitizen-filter-blog-district').value;
+        const sort = document.getElementById('skhcitizen-filter-blog-sort').value;
+
+        let filtered = skhcitizen_allPosts.filter(post => {
+            const hasMain = post.labels.some(l => l.toLowerCase() === 'zen-blog' || l.toLowerCase() === 'zen-video');
+            const isUmkm = post.labels.some(l => l.toLowerCase() === 'zen-umkm');
+            if (!hasMain || isUmkm) return false;
+
+            const mSearch = post.title.toLowerCase().includes(search);
+            const mCat = cat === "" || post.labels.includes(cat);
+            const mType = type === "" || post.labels.some(l => l.toLowerCase() === type.toLowerCase());
+            const mDist = dist === "" || post.labels.some(l => l.toLowerCase() === dist.toLowerCase());
+
+            return mSearch && mCat && mType && mDist;
+        });
+
+        if (sort === 'az') filtered.sort((a, b) => a.title.localeCompare(b.title));
+        else if (sort === 'za') filtered.sort((a, b) => b.title.localeCompare(a.title));
+        else if (sort === 'oldest') filtered.sort((a, b) => a.date - b.date);
+        else filtered.sort((a, b) => b.date - a.date);
+
+        skhcitizenRenderGrid(filtered);
+    }
+
+    function skhcitizenRenderGrid(data) {
+        const grid = document.getElementById('skhcitizen-filter-blog-grid');
+        const pagContainer = document.getElementById('skhcitizen-filter-blog-pagination');
+        
+        if (data.length === 0) {
+            grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 50px;">Tidak ditemukan.</div>';
+            pagContainer.innerHTML = ''; return;
+        }
+
+        const start = (skhcitizen_currentPage - 1) * skhcitizen_postsPerPage;
+        const paginatedData = data.slice(start, start + skhcitizen_postsPerPage);
+        const totalPages = Math.ceil(data.length / skhcitizen_postsPerPage);
+
+        grid.innerHTML = paginatedData.map(post => {
+            const displayLabel = post.labels.find(l => {
+                const low = l.toLowerCase();
+                return !low.startsWith('zen-') && !skhcitizen_districts.includes(low);
+            }) || "";
+            
+            return `
+                <div class="skhcitizen-filter-blog-card">
+                    <a href="${post.link}" style="text-decoration:none; color:inherit; display:flex; flex-direction:column; height:100%;">
+                        <div class="skhcitizen-filter-blog-thumb">
+                            ${post.thumbnail ? `<img src="${post.thumbnail}" alt="${post.title}">` : 
+                            `<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#ccc;">No Image</div>`}
+                        </div>
+                        <div class="skhcitizen-filter-blog-content">
+                            <div class="skhcitizen-filter-blog-title">${post.title}</div>
+                            <div class="skhcitizen-filter-blog-footer">
+                                <span class="skhcitizen-filter-blog-author" title="${post.author}">${post.author}</span>
+                                <span class="skhcitizen-filter-blog-label-tag">${displayLabel ? '#' + displayLabel : ''}</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            `;
+        }).join('');
+
+        let pagHtml = '';
+        if (totalPages > 1) {
+            pagHtml += `<button class="skhcitizen-filter-blog-page-btn" onclick="skhcitizenChangePage(${skhcitizen_currentPage - 1})" ${skhcitizen_currentPage === 1 ? 'disabled' : ''}>&laquo;</button>`;
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= skhcitizen_currentPage - 1 && i <= skhcitizen_currentPage + 1)) {
+                    pagHtml += `<button class="skhcitizen-filter-blog-page-btn ${i === skhcitizen_currentPage ? 'active' : ''}" onclick="skhcitizenChangePage(${i})">${i}</button>`;
+                }
+            }
+            pagHtml += `<button class="skhcitizen-filter-blog-page-btn" onclick="skhcitizenChangePage(${skhcitizen_currentPage + 1})" ${skhcitizen_currentPage === totalPages ? 'disabled' : ''}>&raquo;</button>`;
+        }
+        pagContainer.innerHTML = pagHtml;
+    }
+
+    function skhcitizenChangePage(n) {
+        if (n < 1) return;
+        skhcitizen_currentPage = n;
+        skhcitizenFilterBlogMain(false);
+        window.scrollTo({ top: document.getElementById('skhcitizen-filter-blog-wrapper').offsetTop - 20, behavior: 'smooth' });
+    }
+
+    skhcitizenFetchBloggerPosts();
+</script>
